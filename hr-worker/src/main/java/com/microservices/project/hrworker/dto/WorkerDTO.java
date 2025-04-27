@@ -1,6 +1,6 @@
 package com.microservices.project.hrworker.dto;
 
-import com.microservices.project.hrworker.entitie.Worker;
+import com.microservices.project.hrworker.entity.Worker;
 
 public class WorkerDTO {
 

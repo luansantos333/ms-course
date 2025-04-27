@@ -1,4 +1,4 @@
-package com.microservices.project.hrworker.entitie;
+package com.microservices.project.hrworker.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

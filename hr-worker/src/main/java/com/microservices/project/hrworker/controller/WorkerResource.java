@@ -1,8 +1,6 @@
 package com.microservices.project.hrworker.controller;
 
 import com.microservices.project.hrworker.dto.WorkerDTO;
-import com.microservices.project.hrworker.entitie.Worker;
-import com.microservices.project.hrworker.repository.WorkerRepository;
 import com.microservices.project.hrworker.service.WorkerService;
 import com.microservices.project.hrworker.service.exceptions.ResourceNotFoundException;
 import org.springframework.http.ResponseEntity;

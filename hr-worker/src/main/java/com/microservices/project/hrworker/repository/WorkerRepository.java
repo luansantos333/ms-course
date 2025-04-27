@@ -1,6 +1,6 @@
 package com.microservices.project.hrworker.repository;
 
-import com.microservices.project.hrworker.entitie.Worker;
+import com.microservices.project.hrworker.entity.Worker;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

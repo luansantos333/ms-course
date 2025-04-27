@@ -1,7 +1,7 @@
 package com.microservices.project.hrworker.service;
 
 import com.microservices.project.hrworker.dto.WorkerDTO;
-import com.microservices.project.hrworker.entitie.Worker;
+import com.microservices.project.hrworker.entity.Worker;
 import com.microservices.project.hrworker.repository.WorkerRepository;
 import com.microservices.project.hrworker.service.exceptions.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
