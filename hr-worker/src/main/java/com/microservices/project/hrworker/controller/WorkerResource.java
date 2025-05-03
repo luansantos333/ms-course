@@ -20,12 +20,10 @@ public class WorkerResource {
 
 
     private final WorkerService workerService;
-    private final Environment environment;
-    private static final Logger logger = (Logger) LoggerFactory.getLogger(WorkerResource.class);
 
-    public WorkerResource(WorkerService workerService, Environment environment) {
+
+    public WorkerResource(WorkerService workerService) {
         this.workerService = workerService;
-        this.environment = environment;
     }
 
     @GetMapping
@@ -39,8 +37,6 @@ public class WorkerResource {
 
     @GetMapping(value = "/{id}")
     public ResponseEntity<WorkerDTO> findWorkerById(@PathVariable(name = "id") Long id) throws ResourceNotFoundException {
-
-        logger.warn("PORT=" + environment.getProperty("local.server.port"));
 
         WorkerDTO worker = workerService.findWorkerByID(id);
 
