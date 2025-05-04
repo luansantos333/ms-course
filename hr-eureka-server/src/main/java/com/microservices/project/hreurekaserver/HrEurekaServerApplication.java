@@ -1,4 +1,4 @@
-package com.microservices.project.hr_eureka_server;
+package com.microservices.project.hreurekaserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
